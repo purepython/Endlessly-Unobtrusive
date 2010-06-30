@@ -22,12 +22,12 @@ of the page, which can optionally contain a child element of class
 being loaded.
 
 Attributes:
-* data-endless
-  This attribute is required and should contain the URI to send the AJAX
+* `data-endless`
+  This attribute is required and should contain the URI to send the AJAX 
   request to to get more content.
-* data-page
+* `data-page`
   This optional attribute has the current page number, usually just 1.
-* data-method
+* `data-method`
   This optional attribute specifies the HTTP method to use in the request
   defaults to 'get'.
 
