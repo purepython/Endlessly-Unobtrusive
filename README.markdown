@@ -23,13 +23,13 @@ being loaded.
 
 Attributes:
 * data-endless
-> This attribute is required and should contain the URI to send the AJAX
-> request to to get more content.
+  This attribute is required and should contain the URI to send the AJAX
+  request to to get more content.
 * data-page
-> This optional attribute has the current page number, usually just 1.
+  This optional attribute has the current page number, usually just 1.
 * data-method
-> This optional attribute specifies the HTTP method to use in the request
-> defaults to 'get'.
+  This optional attribute specifies the HTTP method to use in the request
+  defaults to 'get'.
 
 Example
 -------
