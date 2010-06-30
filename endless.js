@@ -14,7 +14,7 @@ Endless.loop = function() {
       Endless.is_loading = true;
       Endless.page++;
       new Ajax.Request(Endless.url, {
-            method: 'get',
+            method: Endless.method,
             parameters: 'page=' + Endless.page,
             onLoading: function() { Endless.loading(true); },
             onComplete: function() { 
